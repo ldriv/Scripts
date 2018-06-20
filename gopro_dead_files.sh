@@ -12,6 +12,6 @@ basenames=`echo "$filesnames"|sort -n -k2,2|uniq -c|sort -rk 1|grep "2 "|awk '{p
 
 # Delete files
 for file in ${basenames[@]}; do 
-  rm $x.LRV
-  rm $x.THM 
+  rm $file.LRV
+  rm $file.THM 
 done
