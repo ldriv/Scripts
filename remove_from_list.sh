@@ -1,6 +1,5 @@
 #!/bin/sh
 # 
-#
 # Script to compare lists and remove any matching items
 # 2018 10.16.2018 LDRIV https://www.linkedin.com/in/ldriv/
 
